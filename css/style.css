@@ -8,7 +8,33 @@
 }
 
 html {
-    font-size: 10rem;
+    font-size: 10px;
     font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --colorText: #222222;
+    --colorBackground: #ffffff
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--colorBackground); 
+    text-align: center;
+    align-items: center;
+}
+
+ul.menu {
+    display: flex;
+}
+
+ul.menu li {
+    list-style: none;
+}
+
+ul.menu li a {
+    text-decoration: none;
 }
 
