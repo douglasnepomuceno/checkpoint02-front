@@ -16,8 +16,8 @@ html {
   --colorBackground: #ffffff;
   --colorHomeMenu: #e51b3e;
   --colorDestaque: #000000;
-  --colorBtnCard: #33BB69;
-  --colorBackgroundCard: #F4F4F4;
+  --colorBtnCard: #33bb69;
+  --colorBackgroundCard: #f4f4f4;
 }
 
 header {
@@ -52,8 +52,7 @@ ul.menu a {
 }
 
 section.banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url(../img/background.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(../img/background.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 80vh;
@@ -65,11 +64,11 @@ section.banner {
 }
 
 .btn-explorer {
-    width: 200px;
-    height: 50px;
-    color: var(--colorBackground);
-    font-weight: bold;
-    font-size: 1.5rem;
+  width: 200px;
+  height: 50px;
+  color: var(--colorBackground);
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 div.tituloPrincipal {
@@ -90,19 +89,23 @@ section.banner p {
   margin-top: 30px;
 }
 
-main.itens {
+section.itens {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 60vw;
   margin-top: 30px;
+  margin-left: 20%;
 }
 
 .card {
   border-radius: 15px;
-  height: 600px;
+  height: 550px;
+  width: 250px;
   background-color: var(--colorBackgroundCard);
+  margin: 2%;
 }
 
 .card-title {
@@ -118,16 +121,20 @@ main.itens {
 }
 
 .btn-card {
-   width: 150px;
-   height: 30px;
-   background-color: var(--colorBtnCard);
-   font-weight: bold;
-   border: none;
-   margin-left: auto;
-   margin-right: auto;
+  width: 150px;
+  height: 30px;
+  background-color: var(--colorBtnCard);
+  font-weight: bold;
+  border: none;
+  margin-left: 17%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
 }
 
 .card-img-top {
-   border-radius: 15px;
-   height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 180px;
 }
