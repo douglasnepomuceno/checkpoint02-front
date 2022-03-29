@@ -14,27 +14,42 @@ html {
 
 :root {
     --colorText: #222222;
-    --colorBackground: #ffffff
+    --colorBackground: #ffffff;
+    --colorHomeMenu: #E51B3E;
 
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--colorBackground); 
     text-align: center;
     align-items: center;
+    font-weight: 400;
+    width: 100%;
+    height: 20vh;
 }
+
+
 
 ul.menu {
     display: flex;
+    gap: 10px;
+    align-items: center;    
+}
+
+#colorRed {
+    color: var(--colorHomeMenu);
 }
 
 ul.menu li {
     list-style: none;
+    
 }
 
-ul.menu li a {
+ul.menu a {
     text-decoration: none;
+    color: var(--colorText);
+    font-size: 1.5rem;
 }
 
