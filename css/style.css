@@ -18,6 +18,7 @@ html {
   --colorDestaque: #000000;
   --colorBtnCard: #33bb69;
   --colorBackgroundCard: #f4f4f4;
+  --colorBackgroundFooter: #171717;
 }
 
 header {
@@ -137,4 +138,39 @@ section.itens {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   height: 180px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorBackgroundFooter);
+}
+
+section.github {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    align-items: center;
+    color: var(--colorBackground);
+    font-size: 1.2rem;
+}
+
+.github h5 {
+    font-size: 1.5rem;
+}
+
+div.text-footer {
+    text-align: center;
+    margin: 2%;
+    color: var(--colorBackground);
+}
+
+.cardAluno1 {
+    text-align: left;
+}
+.cardAluno2 {
+    text-align: center;
+}
+.cardAluno3 {
+    text-align: right;
 }
