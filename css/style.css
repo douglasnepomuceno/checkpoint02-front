@@ -75,14 +75,14 @@ section.banner {
 div.tituloPrincipal {
   color: var(--colorHomeMenu);
   align-items: flex-start;
-  margin-left: -34.5%;
+  margin-left: -36%;
 }
 
 section.banner p {
   color: #ffffff;
 }
 
-#tituloCards {
+.tituloCards {
   text-align: center;
   color: var(--colorDestaque);
   font-weight: bold;
@@ -173,4 +173,31 @@ div.text-footer {
 }
 .cardAluno3 {
     text-align: right;
+}
+
+@media (max-width: 500px) {
+
+  section.github {
+      flex-direction: column;
+  }
+
+  .cardAluno1 {
+    margin: 10px;
+  }
+
+  .cardAluno2 {
+    margin: 10px;
+  }
+
+  .cardAluno3 {
+    margin: 10px;
+  }
+
+  section.banner {
+    font-size: 1.2rem;
+  }
+
+  header {
+    flex-direction: column;
+  }
 }
